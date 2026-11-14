@@ -1,5 +1,4 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage[a4paper, total={6in, 8in}]{geometry}
+\documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -19,8 +18,6 @@
 \usepackage[backend=biber, style=alphabetic, sorting=ynt]{biblatex}
 \addbibresource{references.bib}
 \usetikzlibrary{decorations.pathreplacing}
-\usepackage{fouriernc}
-\usepackage[T1]{fontenc}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
@@ -74,10 +71,10 @@ When we think of braids, we normally think of patterns of intertwined strands - 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.2\linewidth]{hair braid.png}
-    \includegraphics[width=0.2\linewidth]{wires.png}
-    \includegraphics[width=0.2\linewidth]{rope braid.png}
-    \includegraphics[width=0.2\linewidth]{textile.png}
+    \includegraphics[width=0.2\linewidth]{Images/hair braid.png}
+    \includegraphics[width=0.2\linewidth]{Images/wires.png}
+    \includegraphics[width=0.2\linewidth]{Images/rope braid.png}
+    \includegraphics[width=0.2\linewidth]{Images/textile.png}
     \caption{Different types of braids}
     \label{fig:example}
 \end{figure}
@@ -319,7 +316,7 @@ When stacking of the individual frames of each braid with a frozen strand, the o
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.4\linewidth]{frozenstrand.png}
+    \includegraphics[width=0.4\linewidth]{Images/frozenstrand.png}
     \caption{Braid with a frozen strand}
     \label{fig:frozenstrand}
 \end{figure}
@@ -339,7 +336,7 @@ where $\zeta = e^{2\pi i/N}$. That is, $z$ is rotated $2\pi k/N$ radians around 
 To visualise the quotient induced by the group action, first imagine the complex plane. Then cut the complex plane along the positive $x$-axis. Then fold the complex plane into a cone, such that the cut out edges meet each other. Continue to rotate and fold it until at every angle from the origin there are $N$ distinct sheets, and the cut edges are aligned even if they don't meet. By modding the complex numbers, we will compress all these sheets into one (infinitely long and bottomless) cone. Figure \ref{fig:rolledcx} demonstrates the method, though keep in mind that the sheet that is the punctured complex plane is infinitely long and wide.
 \begin{figure}
     \centering
-    \includegraphics[width=0.2\linewidth]{complex cone.png}
+    \includegraphics[width=0.2\linewidth]{Images/complex cone.png}
     \caption{Folded complex plane}
     \label{fig:rolledcx}
 \end{figure}
@@ -426,7 +423,7 @@ Figure \ref{fig:cycproj} demonstrates the projection of a cyclotomic braid on th
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{cyclotomic braid shadow.png}
+    \includegraphics[width=0.5\linewidth]{Images/cyclotomic braid shadow.png}
     \caption{Projection of a cyclotomic braid}
     \label{fig:cycproj}
 \end{figure}
